@@ -63,15 +63,28 @@ main {
     font-size: 0.8em;
 }
 
+.campo {
+    
+}
 .campo > label {
     display: none;
 }
 .campo > i {
+    background-color: white;
     color:dimgrey;
+    width: 30px;
+    padding: 5px;
+    font-size: 1.5em;
 }
 
 .campo > input {
+    width: calc(100% - 34px);
+    height: 30px;
     font-size: 0.7em;
+    transform: translateY(-7px);
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    border-radius: 8px;
+    padding: 4px;
 }
 
 form > input[type=submit] {
