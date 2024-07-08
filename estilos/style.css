@@ -63,9 +63,6 @@ main {
     font-size: 0.8em;
 }
 
-.campo {
-    
-}
 .campo > label {
     display: none;
 }
